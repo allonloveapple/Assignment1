@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment1</title>
+	<link rel="stylesheet" type="text/css" href="Assignment1.css">
+	<script src="Assignment1.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="left_frame">
+		<div class="Top_left_frame">
+			<button id="Categories">Categories</button>
+
+			<div class="level_1">
+				<button id="Frozen_Food" onmouseover="showLevel_1(0)" >Frozen<br>Food</button>
+				<button id="Fresh_Food" onmouseover="showLevel_1(1)">Fresh<br>Food</button>
+				<button id="Beverages" onmouseover="showLevel_1(2)">Beverages</button>
+				<button id="Homer_Health" onmouseover="showLevel_1(3)">Home<br> Health</button>
+				<button id="Pet_Food" onmouseover="showLevel_1(4)">Pet<br>Food</button>
+			</div>
+		</div>
+
+		<div class='Bottom_left_frame'>
+			<div class="level_sub1 show_sub">
+				<div class="level_2">
+					<button id="Hamburger_Patties" class="selectable" onclick="loadXMLDoc()">Hamburger<br>Patties</button>
+					<button id="Fish_Fingers">Fish <br>Fingers</button>
+					<button id="Shelled_prawns" class="selectable">Shelled <br>prawns</button>
+					<button id="Tub_Ice_cream">Tub <br>Ice Cream</button>		
+				</div>
+
+				<div class="level_3 show_level3 ">
+					<button id="Fish_500g" class="Fish selectable">500 Gram</button>
+					<button id="Fish_1000g" class="Fish selectable">1000 Gram</button>
+					<button id="Tub_1L" class="Tub selectable">1 Litre</button>
+					<button id="Tub_2L" class="Tub selectable">2 Litre</button>
+				</div>
+			</div>
+
+			<div class="level_sub2 show_sub">
+				<div class="level_2">
+					<button id="TBone_Steak" class="selectable">TBone Steak</button>
+					<button id="Cheddar_Cheese">Cheddar Cheese</button>
+					<button id="Navel_Oranges" class="selectable">Navel Oranges</button>
+					<button id="Bnanas" class="selectable">Bnanas</button>	
+					<button id="Grapes" class="selectable">Grapes</button>
+					<button id="Apples" class="selectable">Apples</button>
+					<button id="Peaches" class="selectable">Peaches</button>		
+				</div>
+
+				<div class="level_3 show_level3">
+					<button id="Cheddar_500" class="Cheddar_gram selectable">500 Gram</button>
+					<button id="Cheddar_1000" class="Cheddar_gram selectable">1000 Gram</button>
+				</div>
+				
+			</div>
+
+			<div class="level_sub3 show_sub">
+				<div class="level_2">
+					<button id="Coffee" class="selectable">Coffee</button>
+					<button id="Earl_Grey" onmouseover="showCoffee()">Earl Grey <br>Tea Bags</button>
+					<button id="Chocolate_Bar" onmouseover="showTea()">Chocolate Bar</button>
+					
+				</div>
+
+				<div class="level_3 show_level3">
+					<button id="Coffee_200" class="Coffee_gram ShowCoffee selectable">200 Gram</button>
+					<button id="Coffee_500" class="Coffee_gram ShowCoffee selectable">500 Gram</button>
+
+					<button id="TeaBags_25" class="TeaBag_pack Showtea selectable">pack 25</button>
+					<button id="TeaBags_100" class="TeaBag_pack Showtea selectable">pack 100</button>
+					<button id="TeaBags_200" class="TeaBag_pack Showtea selectable">pack 200</button>
+				</div>
+				 
+			</div>
+
+			<div class="level_sub4 show_sub">
+				<div class="level_2">
+					<button id="Bath_Soap" class="selectable">Bath<br>Soap</button>
+					<button id="Panadol">Panadol</button>
+					<button id="Washing_Powder" class="selectable">Washing Powder</button>
+					<button id="Garbage_Bags">Garbage Bags</button>
+					<button id="Laundry_Bleach" class="selectable">Laundry Bleach</button>		
+				</div>
+
+				<div class="level_3 show_level3">
+					<button id="Panadol_24" class="Panadol_P selectable">Pack 24</button>
+					<button id="Panadol_50" class="Panadol_P selectable">Bottle 50</button>
+					<button id="Garbage_10" class="Garbage_P selectable">small<br>(pack 10)</button>
+					<button id="Garbage_50" class="Garbage_P selectable">large<br>(pack 50)</button>
+				</div>
+			</div>
+
+			<div class="level_sub5 show_sub">
+				<div class="level_2">
+					<button id="Bird_Food" class="selectable">Bird Food</button>
+					<button id="Cat_Food" class="selectable">Cat Food</button>
+					<button id="Dry_Dog">Dry Dog<br>Food</button>
+					<button id="Fish_Food" class="selectable">Fish Food</button>
+				</div>
+
+				<div class="level_3 show_level3">
+					<button id="DryDog_1" class="DryDog_P selectable">1 kg. Pack</button>
+					<button id="DryDog_5" class="DryDog_P selectable">5 kg. Pack</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='right_frame'>
+		<div class="Top_right_frame" id="Top_right_frame">
+			
+
+		</div>
+
+		<div class='Bottom_right_frame'>
+			
+		</div>
+		
+	</div>
+</body>
+</html>
+

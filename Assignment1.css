@@ -1,0 +1,710 @@
+*{ box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* whole body css */
+body {
+	width: 1224px;
+	height: 768px;
+	margin: 0px auto;
+}
+
+
+.left_frame {
+	height: 760px;
+	width: 710px;
+	float: left;
+}
+
+.Top_left_frame {
+	height: 380px;
+	width: 710px;
+	float: left;
+	position: relative;
+}
+
+.Bottom_left_frame{
+	height: 380px;
+	width: 710px;
+	position: relative;
+	float: left;
+}
+
+.right_frame {
+	height: 760px;
+	width: 510px;
+	float: left;
+}
+
+.Top_right_frame {
+	height: 380px;
+	width: 510px;
+	float: left;
+}
+
+.Bottom_right_frame{
+	height: 380px;
+	width: 510px;
+	background-color: blue;
+	float: left;
+}
+
+
+/* Top_left_frame css*/
+#Categories {
+	display: block;
+	border: 1px solid black;
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	bottom: 250px;
+	left: 280px;
+}
+
+.level_1 {
+	margin-bottom: 20px;
+	position: absolute;
+	bottom: 80px;
+	left: 30px;
+	margin: auto;
+}
+
+
+.level_1 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 95px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 15px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+#Beverages {
+	line-height: 40px;
+}
+
+.level_1 button::after {
+	content: "";
+	width: 1px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	bottom: 49px;
+	left: 45px;
+}
+
+#Beverages::after {
+	content: "";
+	width: 1px;
+	height: 106px;
+	background-color: black;
+	position: absolute;
+	bottom: 49px;
+	left: 45px;
+}
+
+#Categories::after {
+	content: "";
+	height: 1px;
+	width: 520px;
+	background-color: black;
+	position: absolute;
+	top: 103px;
+	left: -190px;
+}
+
+
+
+/*left_bottom_frame css*/
+
+/*level_sub1*/
+.level_sub1 .level_2 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 15px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.level_sub1 .level_3{
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	width: 710px;
+
+}
+
+.level_sub1 .level_3 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 80px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 15px;
+	margin-left: 25px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.level_sub1 .level_3 button::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 50px;
+
+}
+
+#Fish_500g::before, #Tub_1L::before{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:63px;
+	top: -102px;
+	left: 110px;
+}
+
+#Fish_1000g::before, #Tub_2L::before {
+	content: "";
+	position: absolute;
+	width:125px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: -75px;
+}
+
+.level_sub1 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 50px;
+}
+
+.level_2 #Hamburger_Patties::before {
+	height: 90px;
+	top: -90px;
+}
+
+.level_2 #Hamburger_Patties::after {
+	content: "";
+	position: absolute;
+	width:405px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 50px;
+}
+
+.level_3 #Tub_1L{
+	margin-left: 50px;
+}
+
+.level_sub1{
+	position: absolute;
+	top: -22px;
+	left: 25px;
+
+}
+
+
+
+/*   level_sub2 */
+.level_sub2 .level_2 button {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 80px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.level_sub2 .level_3 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 80px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 15px;
+	margin-left: 35px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.level_sub2 .level_3{
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	width: 710px;
+}
+
+.level_sub2 .level_3 button::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 40px;
+}
+
+.level_sub2 .level_3 #Cheddar_500::before {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 135px;
+	background-color: black;
+	top: -40px;
+	left: 40px;
+}
+
+#Cheddar_1000::before{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:52px;
+	top: -92px;
+	left: -35px;
+}
+
+.level_sub2 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 40px;
+}
+
+.level_2 #TBone_Steak::after {
+	content: "";
+	position: absolute;
+	width:570px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 40px;
+}
+
+.level_sub2 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 40px;
+}
+
+.level_2 #Navel_Oranges::before {
+	height: 102px;
+	top: -102px;
+}
+
+.level_sub2{
+	position: absolute;
+	top: 0px;
+	left: -15px;
+
+}
+
+/*   level_sub3 */
+.level_sub3 .level_2 button {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 40px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	line-height: 40px;
+}
+
+.level_sub3 .level_2 #Earl_Grey{
+	line-height: 20px;
+}
+
+
+.level_sub3 .level_3 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 90px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	margin-left: 10px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.level_sub3 .level_3{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 710px;
+
+}
+
+.level_sub3 .level_3 button::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 40px;
+}
+
+.level_sub3 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:50px;
+	top: -50px;
+	left: 70px;
+}
+
+.level_sub3 #Earl_Grey::before{
+	height: 137px;
+	top: -137px;
+
+
+}
+
+.level_sub3 #Coffee::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 470px;
+	height:1px;
+	top: -50px;
+	left: 70px;
+}
+
+.level_sub3 #Coffee_200::before {
+	content: "";
+	position: absolute;
+	width:110px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 40px;
+}
+
+.level_sub3 #TeaBags_25::before {
+	content: "";
+	position: absolute;
+	width:220px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 40px;
+}
+
+
+.level_sub3 #Coffee_500::before{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:77px;
+	top: -116px;
+	left: -15px;
+}
+
+.level_sub3 #TeaBags_200::after{
+	position: absolute;
+	height: 116px;
+	top: -116px;
+}
+
+.level_sub3 .Coffee_gram{
+	position: absolute;
+	left: 90px;
+}
+
+.level_sub3 .TeaBag_pack{
+	position: absolute;
+	left: -60px;
+}
+
+.level_sub3{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+
+}
+
+/*   level_sub4 */
+
+.level_sub4 .level_2 button {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 90px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.level_sub4 .level_2 #Panadol{
+	line-height: 40px;
+}
+
+.level_sub4 .level_3 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 20px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.level_sub4 .level_3 .Panadol_P{
+	line-height: 40px;
+}
+
+.level_sub4 .level_3 button::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 50px;
+}
+
+.level_sub4 .level_3{
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	width: 710px;
+}
+
+.level_sub4 #Panadol_24::before, .level_sub4 #Garbage_10::before {
+	content: "";
+	position: absolute;
+	width:135px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 50px;
+}
+
+.level_sub4 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:50px;
+	top: -50px;
+	left: 40px;
+}
+
+.level_sub4 #Garbage_Bags::before{
+	height: 150px;
+	top: -150px;
+
+}
+
+.level_sub4 #Bath_Soap::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 540px;
+	height:1px;
+	top: -50px;
+	left: 40px;
+}
+
+.level_sub4 #Panadol_50::before, .level_sub4 #Garbage_50::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:53px;
+	top: -92px;
+	left: -20px;
+}
+
+.level_sub4 {
+	position: absolute;
+	top: 33px;
+	left: 15px;
+
+}
+
+/*   level_sub5 */
+
+.level_sub5 .level_2 button {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	line-height: 40px;
+}
+
+.level_sub5 .level_2 #Dry_Dog{
+	line-height: 20px;
+}
+
+.level_sub5 .level_3 button{
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 20px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.level_sub5 .level_3{
+	position: absolute;
+	top: 150px;
+	left: 220px;
+	width: 710px;
+}
+
+.level_sub5 .level_3 button::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:40px;
+	top: -40px;
+	left: 50px;
+}
+
+
+.level_sub5 #DryDog_1::before {
+	content: "";
+	position: absolute;
+	width:135px;
+	height: 1px;
+	background-color: black;
+	top: -40px;
+	left: 50px;
+}
+
+.level_sub5 #DryDog_5::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:53px;
+	top: -92px;
+	left: -15px;
+}
+
+.level_sub5 .level_2 button::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 1px;
+	height:50px;
+	top: -50px;
+	left: 50px;
+}
+
+.level_sub5 .level_2 #Fish_Food::before{
+	height: 150px;
+	top: -150px;
+}
+
+
+.level_sub5 #Bird_Food::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	width: 435px;
+	height:1px;
+	top: -50px;
+	left: 50px;
+}
+
+.level_sub5 {
+	position: absolute;
+	top: 33px;
+	left: 105px;
+
+}
+
+/* hide all level_sub */
+.show_sub{
+	display: none;
+}
+
+.level_sub3 .level_3 .ShowCoffee, .level_sub3 .level_3 .Showtea {
+	display: none;
+}
+
+.selectable{
+	cursor: pointer;
+}
+
+.selectable:hover{
+	background-color: black;
+	color: white;
+}
